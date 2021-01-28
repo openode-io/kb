@@ -57,3 +57,22 @@ to the Mongodb addon server:
         console.log(`node server listening on port 80...`, new Date())
       }
     })
+
+The following package.json can be used:
+
+    {
+      "name": "openode-hello-mongo",
+      "version": "1.0.0",
+      "description": "#",
+      "main": "server.js",
+      "dependencies": {
+        "mongodb": "^3.6.2",
+      },
+      "devDependencies": {},
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+      },
+      "author": "",
+      "license": "ISC"
+    }

@@ -30,7 +30,7 @@ RUN echo 'cp -R /opt/app/data/* /data' >> /boot.sh
 CMD sh /boot.sh && npm start
 ```
 
-And so important part:
+And so the important part:
 
     RUN echo 'cp -R /opt/app/data/* /data' >> /boot.sh
 
